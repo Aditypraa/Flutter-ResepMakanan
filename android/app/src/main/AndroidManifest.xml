@@ -4,7 +4,7 @@
 <uses-permission android:name="android.permission.INTERNET" />
 
    <application
-        android:label="resep_makanan"
+        android:label="Resep Makanan"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
