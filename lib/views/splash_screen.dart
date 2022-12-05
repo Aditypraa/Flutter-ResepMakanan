@@ -25,6 +25,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       title: "",
                     ))));
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -58,12 +59,12 @@ class _SplashScreenState extends State<SplashScreen> {
                   ),
                 ),
                 Image.asset(
-                  "images/Logo_Untag.png",
+                  "assets/images/Logo_Untag.png",
                   height: 200.0,
                   width: 200.0,
                 ),
                 Image.asset(
-                  "images/Logo_Aplikasi_Kue.png",
+                  "assets/icon/Logo_Aplikasi_Kue.png",
                   height: 250.0,
                   width: 250.0,
                 ),

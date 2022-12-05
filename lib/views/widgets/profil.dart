@@ -17,14 +17,14 @@ class Tentang extends StatelessWidget {
                   width: double.infinity,
                   height: MediaQuery.of(context).size.height / 3,
                   fit: BoxFit.cover,
-                  image: AssetImage("./images/Sampul_2.png"),
+                  image: AssetImage("assets//images/Sampul_2.png"),
                 ),
                 Positioned(
                   bottom: -60.0,
                   child: CircleAvatar(
                     radius: 80,
                     backgroundColor: Colors.white,
-                    backgroundImage: AssetImage("images/4x6-UNTAG.jpg"),
+                    backgroundImage: AssetImage("assets/images/4x6-UNTAG.jpg"),
                   ),
                 )
               ],
@@ -77,14 +77,14 @@ class Tentang extends StatelessWidget {
                   width: double.infinity,
                   height: MediaQuery.of(context).size.height / 3,
                   fit: BoxFit.cover,
-                  image: AssetImage("./images/sampul_shendy.jpg"),
+                  image: AssetImage("assets//images/sampul_shendy.jpg"),
                 ),
                 Positioned(
                   bottom: -60.0,
                   child: CircleAvatar(
                     radius: 80,
                     backgroundColor: Colors.white,
-                    backgroundImage: AssetImage("images/shendy.png"),
+                    backgroundImage: AssetImage("assets/images/shendy.png"),
                   ),
                 )
               ],
