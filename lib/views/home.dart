@@ -23,28 +23,17 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<void> getResep() async {
-      
     _resep = await ResepApi.getResep();
-    if(mounted){
-    setState(() {
-      _isLoading = false;
-    });
+    if (mounted) {
+      setState(() {
+        _isLoading = false;
+      });
     }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        // appBar: AppBar(
-        //   title: Row(
-        //     mainAxisAlignment: MainAxisAlignment.center,
-        //     children: [
-        //       Icon(Icons.restaurant),
-        //       SizedBox(width: 10),
-        //       Text("Resep Makanan")
-        //     ],
-        //   ),
-        // ),
         body: _isLoading
             ? Center(child: CircularProgressIndicator())
             : ListView.builder(
@@ -57,23 +46,24 @@ class _HomePageState extends State<HomePage> {
                       rating: _resep[index].rating.toString(),
                       thumbnailUrl: _resep[index].images,
                       videoUrl: _resep[index].videoUrl,
-                      ),
-                      onTap: () => {
-                        Navigator.push(
-                          context, MaterialPageRoute(builder: 
-                            (context) => DetailResep(
-                              name: _resep[index].name,
-                              totalTime: _resep[index].totalTime,
-                              rating: _resep[index].rating.toString(),
-                              images: _resep[index].images,
-                              description: _resep[index].description,
-                              videoUrl: _resep[index].videoUrl,
-                              instructions: _resep[index].instructions,
-                              sections: _resep[index].sections,
-                              ),
-                            ),)
-                      },
-                    
+                    ),
+                    onTap: () => {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => DetailResep(
+                            name: _resep[index].name,
+                            totalTime: _resep[index].totalTime,
+                            rating: _resep[index].rating.toString(),
+                            images: _resep[index].images,
+                            description: _resep[index].description,
+                            videoUrl: _resep[index].videoUrl,
+                            instructions: _resep[index].instructions,
+                            sections: _resep[index].sections,
+                          ),
+                        ),
+                      )
+                    },
                   );
                 },
               ));
