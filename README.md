@@ -1,25 +1,41 @@
-# Aplikasi Resep Makanan
+# 🍽️ Aplikasi Resep Makanan
 
-## Tampilan Splash Screen
+Selamat datang di Aplikasi Resep Makanan! 🎉 Aplikasi ini menyediakan berbagai resep masakan lengkap dengan panduan langkah demi langkah, video tutorial, dan informasi nutrisi. Jelajahi berbagai fitur aplikasi melalui tampilan yang menarik di bawah ini.
 
-![Img 1](assets/screenshot/SplashScreen.jpg)
+🔗 [Unduh Aplikasi](https://drive.google.com/file/d/1l6AO7sKoZMSKBSmRJfgjwONNlM-guofR/view?usp=sharing)
 
-## Tampilan Halaman Utama
+## 📱 Tampilan Aplikasi
 
-![Img 1](assets/screenshot/Halaman_Utama.jpg)
+### 🌟 Tampilan Splash Screen
+Saat pertama kali membuka aplikasi, Anda akan disambut dengan tampilan splash screen yang menarik.
 
-## Tampilan List Resep
+![Splash Screen](assets/screenshot/SplashScreen.jpg)
 
-![Img 1](assets/screenshot/List_Resep.jpg)
+### 🏠 Tampilan Halaman Utama
+Halaman utama menyediakan akses cepat ke berbagai kategori resep dan rekomendasi terbaru.
 
-## Tampilan Detail Resep
+![Halaman Utama](assets/screenshot/Halaman_Utama.jpg)
 
-![Img 1](assets/screenshot/Detail_Resep.jpg)
+### 📜 Tampilan List Resep
+Jelajahi daftar resep yang lengkap dengan gambar menarik dan deskripsi singkat.
 
-## Tampilan Detail Vidio
+![List Resep](assets/screenshot/List_Resep.jpg)
 
-![Img 1](assets/screenshot/Detail_Vidio.jpg)
+### 📋 Tampilan Detail Resep
+Setiap resep dilengkapi dengan detail bahan, langkah-langkah memasak, dan informasi nutrisi.
 
-## Tampilan Profil
+![Detail Resep](assets/screenshot/Detail_Resep.jpg)
 
-![Img 1](assets/screenshot/Profil.jpg)
+### 🎥 Tampilan Detail Video
+Nikmati video tutorial yang memandu Anda dalam setiap langkah memasak.
+
+![Detail Video](assets/screenshot/Detail_Vidio.jpg)
+
+### 👤 Tampilan Profil
+Kelola profil Anda, simpan resep favorit, dan lihat riwayat masakan yang pernah Anda coba.
+
+![Profil](assets/screenshot/Profil.jpg)
+
+---
+
+Terima kasih telah menggunakan Aplikasi Resep Makanan! Kami berharap Anda menemukan inspirasi dan kemudahan dalam memasak. Selamat mencoba berbagai resep lezat! 🍲👨‍🍳👩‍🍳
